@@ -36,7 +36,7 @@ namespace Escola_POO_BASE.Classes
         #endregion
 
         #region Métodos
-        //Um método para abrir a conexão com o banco
+        //Um método para abrir a conexão com o banco.
         public void AbrirConexao()
         {
             if (conexao.State == ConnectionState.Open)
